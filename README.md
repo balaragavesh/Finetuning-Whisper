@@ -31,10 +31,6 @@ The training script supports:
 - Custom tokenizer integration
 - Evaluation and logging of loss and CER per checkpoint
 
-## Checkpoint Selection
-
-After evaluation, the checkpoint at step 500 was selected as the final model due to its optimal trade-off between validation loss and CER.
-
 ## Inference
 
 The decoding script takes raw audio and generates phoneme sequences using the fine-tuned model and phoneme tokenizer.
