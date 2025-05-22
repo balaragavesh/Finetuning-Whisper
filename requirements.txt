@@ -1,0 +1,9 @@
+
+torch
+transformers
+datasets
+jiwer
+numpy
+tensorboard
+scipy
+soundfile
